@@ -23,15 +23,19 @@ There is two simple ways:
 
 * Using this repo: Just clone this repo then start vagrant. It will do the magic for You.
 
+
     $ git clone https://github.com/joepreludian/deployer-udev.git
     $ cd deployer-udev
     $ vagrant up
 
+
 * If are You wanting a more clean, vagrant way, you can do the following:
+
 
     $ cd <folder_you_want_deployer_in>
     $ vagrant init
     $ vagrant up joepreludian/deployer-udev --provider virtualbox 
+
 
 # Thank You!
 =)
