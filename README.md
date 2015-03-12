@@ -30,8 +30,8 @@ There is two simple ways:
 * If are You wanting a more clean, vagrant way, you can do the following:
 
     $ cd <folder_you_want_deployer_in>
-    $ vagrant init joepreludian/deployer-udev
-    $ vagrant up 
+    $ vagrant init
+    $ vagrant up joepreludian/deployer-udev --provider virtualbox 
 
 # Thank You!
 =)
